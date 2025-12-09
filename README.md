@@ -19,12 +19,12 @@ graph TD
     A3[Deel/Payroll Data]
     end
     
-    B -->|Reconcile| C{Ad Spend<br/>Match?}
-    C -->|Yes| D[Clear Liability<br/>(No Risk)]
-    C -->|No| E[Flag Variance<br/>Report]
+    B -->|Reconcile| C{"Ad Spend<br/>Match?"}
+    C -->|Yes| D["Clear Liability<br/>(No Risk)"]
+    C -->|No| E["Flag Variance<br/>Report"]
     
     B -->|Allocate| F[Squad P&L Model]
     
     F -->|Output| G[Executive Dashboard]
-    G --> H[Profitability<br/>per Squad]
-    G --> I[Cash Flow<br/>'Float' Risk]
+    G --> H["Profitability<br/>per Squad"]
+    G --> I["Cash Flow<br/>Float Risk"]
