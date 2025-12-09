@@ -1,0 +1,6 @@
+Transaction_ID,Client,Spend_GBP,Date,Ref_ID,Ledger_Account,Amount_GBP,Variance,Status
+FB-2024-001,Client A,5000.0,2024-10-01,FB-2024-001,Client A - Funds,5000.0,0.0,OK: Reconciled
+FB-2024-002,Client A,12500.0,2024-10-02,FB-2024-002,Client A - Funds,12500.0,0.0,OK: Reconciled
+FB-2024-003,Client B,4500.5,2024-10-05,FB-2024-003,Client B - Funds,4000.0,-500.5,RISK: Overspend of £500.5
+FB-2024-004,Client C,8000.0,2024-10-06,,,,,CRITICAL: Invoice Missing in Xero
+FB-2024-005,Client B,3200.0,2024-10-07,FB-2024-005,Client B - Funds,3200.0,0.0,OK: Reconciled
